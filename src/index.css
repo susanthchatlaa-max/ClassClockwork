@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+  code, pre {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #475569;
+}
+
+/* Clash animations */
+@keyframes clashGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(239, 68, 68, 0.7);
+    border-color: #ef4444;
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(239, 68, 68, 1);
+    border-color: #f87171;
+  }
+}
+
+.clash-active {
+  animation: clashGlow 1.5s infinite ease-in-out;
+}
+
+/* Print Stylesheet for Timetable Export Utility */
+@media print {
+  @page {
+    size: landscape;
+    margin: 10mm;
+  }
+  body {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    font-size: 10pt;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-container {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    background: transparent !important;
+  }
+  .timetable-cell {
+    border: 1px solid #cbd5e1 !important;
+    color: #0f172a !important;
+    background: #f8fafc !important;
+    page-break-inside: avoid;
+  }
+}
+
+.print-only {
+  display: none;
+}

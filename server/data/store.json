@@ -1,0 +1,1018 @@
+{
+  "batches": [
+    {
+      "id": "batch-cs4a",
+      "name": "CS-4th Sem (Section A)",
+      "code": "CS-4A",
+      "size": 45,
+      "department": "Computer Science & Engineering"
+    },
+    {
+      "id": "batch-cs4b",
+      "name": "CS-4th Sem (Section B)",
+      "code": "CS-4B",
+      "size": 50,
+      "department": "Computer Science & Engineering"
+    },
+    {
+      "id": "batch-cs6",
+      "name": "CS-6th Sem (Advanced)",
+      "code": "CS-6",
+      "size": 40,
+      "department": "Computer Science & Engineering"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "fac-sharma",
+      "name": "Dr. Ramesh Sharma",
+      "email": "r.sharma@college.edu",
+      "department": "Computer Science",
+      "maxWeeklyHours": 12,
+      "preferredSlot": "MORNING",
+      "unavailableSlots": [
+        {
+          "day": "Friday",
+          "period": 5
+        },
+        {
+          "day": "Friday",
+          "period": 6
+        },
+        {
+          "day": "Friday",
+          "period": 7
+        }
+      ],
+      "color": "#3B82F6"
+    },
+    {
+      "id": "fac-turing",
+      "name": "Prof. Alan Turing",
+      "email": "a.turing@college.edu",
+      "department": "Computer Science",
+      "maxWeeklyHours": 14,
+      "preferredSlot": "MORNING",
+      "unavailableSlots": [
+        {
+          "day": "Monday",
+          "period": 1
+        },
+        {
+          "day": "Monday",
+          "period": 2
+        }
+      ],
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "fac-desai",
+      "name": "Dr. Anita Desai",
+      "email": "a.desai@college.edu",
+      "department": "Computer Science",
+      "maxWeeklyHours": 12,
+      "preferredSlot": "MORNING",
+      "unavailableSlots": [
+        {
+          "day": "Wednesday",
+          "period": 1
+        },
+        {
+          "day": "Wednesday",
+          "period": 2
+        }
+      ],
+      "color": "#EC4899"
+    },
+    {
+      "id": "fac-kumar",
+      "name": "Prof. Rajesh Kumar",
+      "email": "r.kumar@college.edu",
+      "department": "Computer Science",
+      "maxWeeklyHours": 14,
+      "preferredSlot": "AFTERNOON",
+      "unavailableSlots": [
+        {
+          "day": "Thursday",
+          "period": 6
+        },
+        {
+          "day": "Thursday",
+          "period": 7
+        }
+      ],
+      "color": "#F59E0B"
+    },
+    {
+      "id": "fac-nair",
+      "name": "Dr. Priya Nair",
+      "email": "p.nair@college.edu",
+      "department": "Software Engineering",
+      "maxWeeklyHours": 10,
+      "preferredSlot": "ANY",
+      "unavailableSlots": [],
+      "color": "#10B981"
+    },
+    {
+      "id": "fac-chen",
+      "name": "Prof. Michael Chen",
+      "email": "m.chen@college.edu",
+      "department": "AI & Data Science",
+      "maxWeeklyHours": 14,
+      "preferredSlot": "AFTERNOON",
+      "unavailableSlots": [
+        {
+          "day": "Tuesday",
+          "period": 1
+        },
+        {
+          "day": "Tuesday",
+          "period": 2
+        }
+      ],
+      "color": "#06B6D4"
+    },
+    {
+      "id": "fac-rao",
+      "name": "Dr. Sunita Rao",
+      "email": "s.rao@college.edu",
+      "department": "Computer Science",
+      "maxWeeklyHours": 12,
+      "preferredSlot": "ANY",
+      "unavailableSlots": [
+        {
+          "day": "Wednesday",
+          "period": 6
+        },
+        {
+          "day": "Wednesday",
+          "period": 7
+        }
+      ],
+      "color": "#6366F1"
+    },
+    {
+      "id": "fac-malhotra",
+      "name": "Prof. Vikram Malhotra",
+      "email": "v.malhotra@college.edu",
+      "department": "Cloud & Infrastructure",
+      "maxWeeklyHours": 10,
+      "preferredSlot": "MORNING",
+      "unavailableSlots": [],
+      "color": "#14B8A6"
+    },
+    {
+      "id": "fac-patel",
+      "name": "Dr. Kavita Patel",
+      "email": "k.patel@college.edu",
+      "department": "Cybersecurity",
+      "maxWeeklyHours": 10,
+      "preferredSlot": "ANY",
+      "unavailableSlots": [
+        {
+          "day": "Thursday",
+          "period": 1
+        }
+      ],
+      "color": "#F43F5E"
+    },
+    {
+      "id": "fac-miller",
+      "name": "Prof. David Miller",
+      "email": "d.miller@college.edu",
+      "department": "Computer Systems",
+      "maxWeeklyHours": 10,
+      "preferredSlot": "AFTERNOON",
+      "unavailableSlots": [],
+      "color": "#84CC16"
+    }
+  ],
+  "classrooms": [
+    {
+      "id": "room-101",
+      "name": "Lecture Hall 101",
+      "code": "LH-101",
+      "capacity": 60,
+      "type": "LECTURE_HALL",
+      "equipment": [
+        "Projector",
+        "Audio System",
+        "Whiteboard"
+      ],
+      "building": "Turing Block - Floor 1"
+    },
+    {
+      "id": "room-102",
+      "name": "Lecture Hall 102",
+      "code": "LH-102",
+      "capacity": 55,
+      "type": "LECTURE_HALL",
+      "equipment": [
+        "Smart Board",
+        "Audio System",
+        "Lecture Recording"
+      ],
+      "building": "Turing Block - Floor 1"
+    },
+    {
+      "id": "room-103",
+      "name": "Seminar Room 103",
+      "code": "SR-103",
+      "capacity": 50,
+      "type": "LECTURE_HALL",
+      "equipment": [
+        "Interactive Display",
+        "Podium"
+      ],
+      "building": "Turing Block - Floor 2"
+    },
+    {
+      "id": "lab-201",
+      "name": "OS & Systems Lab 201",
+      "code": "SYS-LAB-201",
+      "capacity": 50,
+      "type": "LAB",
+      "equipment": [
+        "Linux Workstations",
+        "Dual Monitors",
+        "Dedicated Server Rack"
+      ],
+      "building": "Ada Lovelace Wing - Floor 2"
+    },
+    {
+      "id": "lab-202",
+      "name": "AI & Data Science Lab 202",
+      "code": "AI-LAB-202",
+      "capacity": 50,
+      "type": "LAB",
+      "equipment": [
+        "GPU Workstations",
+        "High-RAM Terminals",
+        "Python AI Stack"
+      ],
+      "building": "Ada Lovelace Wing - Floor 2"
+    },
+    {
+      "id": "lab-203",
+      "name": "Networks & Web Lab 203",
+      "code": "NET-LAB-203",
+      "capacity": 50,
+      "type": "LAB",
+      "equipment": [
+        "Cisco Routers",
+        "Switch Racks",
+        "Packet Tracer Nodes"
+      ],
+      "building": "Ada Lovelace Wing - Floor 3"
+    }
+  ],
+  "subjects": [
+    {
+      "id": "sub-os-4a",
+      "name": "Operating Systems",
+      "code": "CS401",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-sharma",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Projector"
+      ],
+      "color": "#3B82F6"
+    },
+    {
+      "id": "sub-oslab-4a",
+      "name": "Operating Systems Laboratory (Continuous)",
+      "code": "CS401L",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-sharma",
+      "type": "LAB",
+      "duration": 3,
+      "weeklyHours": 3,
+      "credits": 2,
+      "requiredRoomType": "LAB",
+      "requiredEquipment": [
+        "Linux Workstations"
+      ],
+      "color": "#1D4ED8"
+    },
+    {
+      "id": "sub-dbms-4a",
+      "name": "Database Management Systems",
+      "code": "CS402",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-desai",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Whiteboard"
+      ],
+      "color": "#EC4899"
+    },
+    {
+      "id": "sub-algo-4a",
+      "name": "Design & Analysis of Algorithms",
+      "code": "CS403",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-turing",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 4,
+      "credits": 4,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Smart Board"
+      ],
+      "color": "#8B5CF6"
+    },
+    {
+      "id": "sub-net-4a",
+      "name": "Computer Networks",
+      "code": "CS404",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-kumar",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Projector"
+      ],
+      "color": "#F59E0B"
+    },
+    {
+      "id": "sub-dbmslab-4a",
+      "name": "DBMS & SQL Laboratory",
+      "code": "CS402L",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-desai",
+      "type": "LAB",
+      "duration": 2,
+      "weeklyHours": 2,
+      "credits": 1,
+      "requiredRoomType": "LAB",
+      "requiredEquipment": [
+        "Dedicated Server Rack"
+      ],
+      "color": "#BE185D"
+    },
+    {
+      "id": "sub-os-4b",
+      "name": "Operating Systems",
+      "code": "CS401",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-sharma",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Projector"
+      ],
+      "color": "#2563EB"
+    },
+    {
+      "id": "sub-oslab-4b",
+      "name": "Operating Systems Laboratory (Continuous)",
+      "code": "CS401L",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-sharma",
+      "type": "LAB",
+      "duration": 3,
+      "weeklyHours": 3,
+      "credits": 2,
+      "requiredRoomType": "LAB",
+      "requiredEquipment": [
+        "Linux Workstations"
+      ],
+      "color": "#1E40AF"
+    },
+    {
+      "id": "sub-se-4b",
+      "name": "Software Engineering & Agile",
+      "code": "CS405",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-nair",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Interactive Display"
+      ],
+      "color": "#10B981"
+    },
+    {
+      "id": "sub-algo-4b",
+      "name": "Design & Analysis of Algorithms",
+      "code": "CS403",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-turing",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 4,
+      "credits": 4,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Smart Board"
+      ],
+      "color": "#7C3AED"
+    },
+    {
+      "id": "sub-web-4b",
+      "name": "Web Technologies & Cloud",
+      "code": "CS406",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-rao",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Projector"
+      ],
+      "color": "#6366F1"
+    },
+    {
+      "id": "sub-weblab-4b",
+      "name": "Full-Stack Web Dev Lab",
+      "code": "CS406L",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-rao",
+      "type": "LAB",
+      "duration": 2,
+      "weeklyHours": 2,
+      "credits": 1,
+      "requiredRoomType": "LAB",
+      "requiredEquipment": [
+        "Packet Tracer Nodes"
+      ],
+      "color": "#4F46E5"
+    },
+    {
+      "id": "sub-ai-6",
+      "name": "Artificial Intelligence & Deep Learning",
+      "code": "CS601",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-chen",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Projector"
+      ],
+      "color": "#06B6D4"
+    },
+    {
+      "id": "sub-ailab-6",
+      "name": "AI & GPU Computing Lab (Continuous)",
+      "code": "CS601L",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-chen",
+      "type": "LAB",
+      "duration": 3,
+      "weeklyHours": 3,
+      "credits": 2,
+      "requiredRoomType": "LAB",
+      "requiredEquipment": [
+        "GPU Workstations"
+      ],
+      "color": "#0891B2"
+    },
+    {
+      "id": "sub-net-6",
+      "name": "Advanced Computer Networks",
+      "code": "CS602",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-kumar",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Smart Board"
+      ],
+      "color": "#D97706"
+    },
+    {
+      "id": "sub-sec-6",
+      "name": "Network Security & Cryptography",
+      "code": "CS603",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-patel",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Interactive Display"
+      ],
+      "color": "#F43F5E"
+    },
+    {
+      "id": "sub-cloud-6",
+      "name": "Cloud Infrastructure & DevOps",
+      "code": "CS604",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-malhotra",
+      "type": "THEORY",
+      "duration": 1,
+      "weeklyHours": 3,
+      "credits": 3,
+      "requiredRoomType": "LECTURE_HALL",
+      "requiredEquipment": [
+        "Projector"
+      ],
+      "color": "#14B8A6"
+    }
+  ],
+  "allocations": [
+    {
+      "id": "alloc-unit-sub-oslab-4a-1-Monday-p1",
+      "subjectId": "sub-oslab-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-sharma",
+      "roomId": "lab-201",
+      "day": "Monday",
+      "period": 1,
+      "duration": 3,
+      "isLabBlock": true
+    },
+    {
+      "id": "alloc-unit-sub-oslab-4b-1-Tuesday-p1",
+      "subjectId": "sub-oslab-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-sharma",
+      "roomId": "lab-201",
+      "day": "Tuesday",
+      "period": 1,
+      "duration": 3,
+      "isLabBlock": true
+    },
+    {
+      "id": "alloc-unit-sub-ailab-6-1-Monday-p5",
+      "subjectId": "sub-ailab-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-chen",
+      "roomId": "lab-202",
+      "day": "Monday",
+      "period": 5,
+      "duration": 3,
+      "isLabBlock": true
+    },
+    {
+      "id": "alloc-unit-sub-dbmslab-4a-1-Thursday-p1",
+      "subjectId": "sub-dbmslab-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-desai",
+      "roomId": "lab-201",
+      "day": "Thursday",
+      "period": 1,
+      "duration": 2,
+      "isLabBlock": true
+    },
+    {
+      "id": "alloc-unit-sub-weblab-4b-1-Monday-p5",
+      "subjectId": "sub-weblab-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-rao",
+      "roomId": "lab-203",
+      "day": "Monday",
+      "period": 5,
+      "duration": 2,
+      "isLabBlock": true
+    },
+    {
+      "id": "alloc-unit-sub-os-4a-1-Wednesday-p1",
+      "subjectId": "sub-os-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-sharma",
+      "roomId": "room-101",
+      "day": "Wednesday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-os-4a-2-Thursday-p3",
+      "subjectId": "sub-os-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-sharma",
+      "roomId": "room-101",
+      "day": "Thursday",
+      "period": 3,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-os-4a-3-Friday-p1",
+      "subjectId": "sub-os-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-sharma",
+      "roomId": "room-101",
+      "day": "Friday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-os-4b-1-Wednesday-p2",
+      "subjectId": "sub-os-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-sharma",
+      "roomId": "room-101",
+      "day": "Wednesday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-os-4b-2-Thursday-p1",
+      "subjectId": "sub-os-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-sharma",
+      "roomId": "room-101",
+      "day": "Thursday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-os-4b-3-Friday-p2",
+      "subjectId": "sub-os-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-sharma",
+      "roomId": "room-101",
+      "day": "Friday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-web-4b-1-Monday-p1",
+      "subjectId": "sub-web-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-rao",
+      "roomId": "room-101",
+      "day": "Monday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-web-4b-2-Tuesday-p5",
+      "subjectId": "sub-web-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-rao",
+      "roomId": "room-101",
+      "day": "Tuesday",
+      "period": 5,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-web-4b-3-Wednesday-p3",
+      "subjectId": "sub-web-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-rao",
+      "roomId": "room-101",
+      "day": "Wednesday",
+      "period": 3,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-net-4a-1-Monday-p5",
+      "subjectId": "sub-net-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-kumar",
+      "roomId": "room-101",
+      "day": "Monday",
+      "period": 5,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-net-4a-2-Tuesday-p6",
+      "subjectId": "sub-net-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-kumar",
+      "roomId": "room-101",
+      "day": "Tuesday",
+      "period": 6,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-net-4a-3-Wednesday-p5",
+      "subjectId": "sub-net-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-kumar",
+      "roomId": "room-101",
+      "day": "Wednesday",
+      "period": 5,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-ai-6-1-Tuesday-p7",
+      "subjectId": "sub-ai-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-chen",
+      "roomId": "room-101",
+      "day": "Tuesday",
+      "period": 7,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-ai-6-2-Wednesday-p6",
+      "subjectId": "sub-ai-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-chen",
+      "roomId": "room-101",
+      "day": "Wednesday",
+      "period": 6,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-ai-6-3-Thursday-p5",
+      "subjectId": "sub-ai-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-chen",
+      "roomId": "room-101",
+      "day": "Thursday",
+      "period": 5,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-dbms-4a-1-Tuesday-p1",
+      "subjectId": "sub-dbms-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-desai",
+      "roomId": "room-101",
+      "day": "Tuesday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-dbms-4a-2-Friday-p3",
+      "subjectId": "sub-dbms-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-desai",
+      "roomId": "room-101",
+      "day": "Friday",
+      "period": 3,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-dbms-4a-3-Tuesday-p2",
+      "subjectId": "sub-dbms-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-desai",
+      "roomId": "room-101",
+      "day": "Tuesday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-cloud-6-1-Monday-p2",
+      "subjectId": "sub-cloud-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-malhotra",
+      "roomId": "room-101",
+      "day": "Monday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-cloud-6-2-Tuesday-p3",
+      "subjectId": "sub-cloud-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-malhotra",
+      "roomId": "room-101",
+      "day": "Tuesday",
+      "period": 3,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-cloud-6-3-Thursday-p2",
+      "subjectId": "sub-cloud-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-malhotra",
+      "roomId": "room-101",
+      "day": "Thursday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4a-4-Tuesday-p3",
+      "subjectId": "sub-algo-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Tuesday",
+      "period": 3,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4a-1-Wednesday-p2",
+      "subjectId": "sub-algo-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Wednesday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4a-2-Friday-p2",
+      "subjectId": "sub-algo-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Friday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4a-3-Wednesday-p3",
+      "subjectId": "sub-algo-4a",
+      "batchId": "batch-cs4a",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Wednesday",
+      "period": 3,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-net-6-1-Tuesday-p5",
+      "subjectId": "sub-net-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-kumar",
+      "roomId": "room-102",
+      "day": "Tuesday",
+      "period": 5,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-net-6-2-Wednesday-p7",
+      "subjectId": "sub-net-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-kumar",
+      "roomId": "room-102",
+      "day": "Wednesday",
+      "period": 7,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-net-6-3-Friday-p5",
+      "subjectId": "sub-net-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-kumar",
+      "roomId": "room-102",
+      "day": "Friday",
+      "period": 5,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4b-1-Monday-p3",
+      "subjectId": "sub-algo-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Monday",
+      "period": 3,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4b-3-Wednesday-p1",
+      "subjectId": "sub-algo-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Wednesday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4b-4-Thursday-p2",
+      "subjectId": "sub-algo-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Thursday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-algo-4b-2-Friday-p1",
+      "subjectId": "sub-algo-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-turing",
+      "roomId": "room-102",
+      "day": "Friday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-se-4b-1-Monday-p2",
+      "subjectId": "sub-se-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-nair",
+      "roomId": "room-103",
+      "day": "Monday",
+      "period": 2,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-se-4b-2-Tuesday-p6",
+      "subjectId": "sub-se-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-nair",
+      "roomId": "room-103",
+      "day": "Tuesday",
+      "period": 6,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-se-4b-3-Wednesday-p5",
+      "subjectId": "sub-se-4b",
+      "batchId": "batch-cs4b",
+      "facultyId": "fac-nair",
+      "roomId": "room-103",
+      "day": "Wednesday",
+      "period": 5,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-sec-6-1-Monday-p1",
+      "subjectId": "sub-sec-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-patel",
+      "roomId": "room-103",
+      "day": "Monday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-sec-6-2-Tuesday-p1",
+      "subjectId": "sub-sec-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-patel",
+      "roomId": "room-103",
+      "day": "Tuesday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    },
+    {
+      "id": "alloc-unit-sub-sec-6-3-Wednesday-p1",
+      "subjectId": "sub-sec-6",
+      "batchId": "batch-cs6",
+      "facultyId": "fac-patel",
+      "roomId": "room-103",
+      "day": "Wednesday",
+      "period": 1,
+      "duration": 1,
+      "isLabBlock": false
+    }
+  ]
+}
